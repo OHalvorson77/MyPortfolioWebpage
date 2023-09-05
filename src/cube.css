@@ -1,0 +1,60 @@
+.cube{
+    height: 100%;
+    position: absolute;
+    transform: rotateY(-42deg)rotateZ(20deg)rotateX(-20deg)translateZ(0);
+
+    transform-style: preserve-3d;
+    width: 100%;
+    animation: cube 10s linear infinite;
+}
+
+.cube div{
+    box-shadow:0 0 0 3px #ffffff inset;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+.cube .a{
+    background-image:url('https://1.bp.blogspot.com/-X5OBU37Ims4/XQexxebsV0I/AAAAAAAAD80/PlMIGUQBY3YwRugZNLvdRaI2Pw_g0jIlgCLcBGAs/s1600/Python%2BProgramming%2BLogo.png');
+    background-size: cover; /* Adjust to your preferred background size */
+    
+    transform: rotateY(0deg) translateZ(50px);
+}
+
+.cube .b{
+    background-image:url('https://i.pinimg.com/originals/79/5e/bb/795ebb5f4a470cd7242136237f61fc53.png');
+    background-size: cover; /* Adjust to your preferred background size */
+    transform: rotateX(180deg) translateZ(50px);
+}
+
+.cube .c{
+    background: rgba(0, 255, 0, .6);
+    transform: rotateY(90deg) translateZ(50px);
+}
+
+.cube .d{
+    background-image:url('https://coder.clothing/images/stories/virtuemart/product/resized/javascript-icon9_418x418.png');
+    background-size: cover; /* Adjust to your preferred background size */
+
+    transform: rotateY(-90deg) translateZ(50px);
+}
+
+.cube .e{
+    background-image:url('https://play-lh.googleusercontent.com/ug0IY1g6yATOA6p69MRcDZJfBFO6On4IrhfYx6n6fxaeAWlQkpFKLyiSCOVpnZCLsA');
+    background-size: cover; /* Adjust to your preferred background size */
+    transform:rotateX(90deg) translateZ(50px);
+}
+
+.cube .f{
+    background-image:url('https://th.bing.com/th/id/R.b046a7a7a630c2249ce0b4dc3930e289?rik=5igZKBTc3UGYKA&riu=http%3a%2f%2fwww.codicestech.com%2fimages%2fhtml5-css3.png&ehk=Dh8azJBeL8up9OwUYT8Tm49L3e2Bj4EbX5NB4RevH9k%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover; /* Adjust to your preferred background size */
+
+    transform: rotatex(-90deg) translateZ(50px);
+}
+
+@keyframes cube{
+    100%{
+        transform: rotateY(678deg)rotateZ(740deg)rotateX(-20deg)translateZ(0);
+    }
+}

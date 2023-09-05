@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.project-description {
+    font-size: 16px;
+    color:white;
+}
+
+.project-image {
+    max-width: 100%;
+    height: 12em;
+}
+
+
+.project-image2 {
+    max-width: 100%;
+    height: 20em;
+}
